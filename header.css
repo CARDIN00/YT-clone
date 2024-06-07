@@ -1,0 +1,132 @@
+.header{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-bottom-width:1px ;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(214, 199, 199) ;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.mid-section{
+    
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 30px;
+    
+    
+}
+.right-section{
+   
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.hamburg-icon{
+    height: 20px;
+    margin-left:20px ;
+    margin-right: 30px;
+}
+.yt-icon{
+    height: 20px;
+    
+}
+
+.search-bar{
+    border: none;
+    height: 31px;
+    flex: 1;   
+    width: 0;
+    font-size: 16px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgb(213, 201, 201);
+    box-shadow: inset 1px 2px 5px rgba(0, 0,0,0.05);
+}
+
+.search-bar::placeholder{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.search-icon{
+    height: 20px;   
+    
+}
+.search-button{
+    height: 35px;
+    width: 60px;
+    padding-top: 5px;
+    padding-bottom: ;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgb(213, 201, 201);
+    box-shadow: inset 1px 2px 5px rgba(0, 0,0,0.05);
+    margin-left: -10px;
+    
+}
+.mic-icon{
+    height: 20px;   
+}
+.mic-button{
+    height: 35px;
+    width: 40px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 30px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgb(213, 201, 201);
+    box-shadow: inset 1px 2px 5px rgba(0, 0,0,0.05);
+    padding-top: 3px;
+    
+}
+
+.cam-button{
+    height: 2S5px;
+    border-width: 0px;
+    background-color: white;
+}
+.cam-icon{
+    height: 25px;
+    
+    padding-top: 2px;
+}
+.bell-button{
+    height: 25px;
+    border-width: 0px;
+    background-color: white;
+    padding-bottom: 30px;
+
+}
+.bell-icon{
+    height: 25px;
+    padding-top: 3px;
+    padding-bottom: 80px;    
+}
+
+.face-button{
+    height: 25px;
+    padding-bottom: 30px;
+    border-width: 0px;
+    background-color: white;
+    
+}
+.face-icon{
+    height: 32px;
+    border-radius: 25px;
+
+}

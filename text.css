@@ -1,0 +1,37 @@
+.video-stat{
+    font-family: Arial;
+   color: grey; 
+   margin-top: 0px;
+}
+
+.inview{
+    font-family: Arial;
+    color: rgb(95, 93, 93);
+}
+
+.para{
+    font-family:Arial ;
+    width: 400px;
+    color: rgb(64, 62, 62);
+    margin-bottom: 70px ;
+    
+}
+
+.apple-text{
+    font-family: Arial ;
+    font-size: 18px;
+    background-color:rgb(101, 40, 40) ;
+    color: white;
+    text-align: center;
+    padding-top:15px ;
+    padding-bottom: 15px;
+    
+}
+.udline{
+    text-decoration: underline;
+    margin-left: 15px;
+}
+.udline:hover{
+    
+    cursor: pointer;
+}
